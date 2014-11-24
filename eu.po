@@ -1,22 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Asier <asier.iturralde@gmail.com>, 2014.
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: Filezilla\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 14:31+0100\n"
-"PO-Revision-Date: 2014-08-08 18:45+0100\n"
-"Last-Translator: Xabier Aramendi <azpidatziak@gmail.com>\n"
-"Language-Team: EUS_Xabier Aramendi <azpidatziak@gmail.com>\n"
+"PO-Revision-Date: 2014-11-24 23:39+0200\n"
+"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
+"Language-Team: Librezale\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.6\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. @translator: This is a date/time formatting specifier. See https://wiki.filezilla-project.org/Date_and_Time_formatting
@@ -32,7 +32,7 @@ msgid "%H:%M:%S left"
 msgstr "%H:%M:%S gelditzen da"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:524
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "%a - Account (Lines containing this will be omitted if not using Account "
 "logontype)"
@@ -46,8 +46,8 @@ msgstr ""
 #, c-format
 msgid "%d directory"
 msgid_plural "%d directories"
-msgstr[0] "%d zuzenbide"
-msgstr[1] "%d zuzenbide"
+msgstr[0] "Direktorio %d"
+msgstr[1] "%d direktorio"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:466
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:777
@@ -55,8 +55,8 @@ msgstr[1] "%d zuzenbide"
 #, c-format
 msgid "%d directory with its contents"
 msgid_plural "%d directories with their contents"
-msgstr[0] "%d zuzenbide bere edukiekin"
-msgstr[1] "%d zuzenbide beren edukiekin"
+msgstr[0] "Direktorio %d bere edukiekin"
+msgstr[1] "%d direktorio beren edukiekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:62
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:85
@@ -66,43 +66,43 @@ msgstr[1] "%d zuzenbide beren edukiekin"
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
-msgstr[0] "%d agiri"
-msgstr[1] "%d agiri"
+msgstr[0] "Fitxategi %d"
+msgstr[1] "%d fitxategi"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:81
 #, c-format
 msgid "%d file. Total size: %s"
 msgid_plural "%d files. Total size: %s"
-msgstr[0] "%d agiri. Neurria guztira: %s"
-msgstr[1] "%d agiri. Neurria guztira: %s"
+msgstr[0] "Fitxategi %d. Tamaina guztira: %s"
+msgstr[1] "%d fitxategi. Tamaina guztira: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:79
 #, c-format
 msgid "%d file. Total size: At least %s"
 msgid_plural "%d files. Total size: At least %s"
-msgstr[0] "%d agiri. Neurria guztira: Gutxienez %s"
-msgstr[1] "%d agiri. Neurria guztira: Gutxienez %s"
+msgstr[0] "Fitxategi %d. Tamaina guztira: gutxienez %s"
+msgstr[1] "%d fitxategi. Tamaina guztira: gutxienez %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:2867
 #, c-format
 msgid "%d files added to queue"
-msgstr "%d agiri lerrora gehituta"
+msgstr "%d fitxategi ilarara gehituta"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:100
 #, c-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] "%d segundu"
-msgstr[1] "%d segundu"
+msgstr[0] "Segundo %d"
+msgstr[1] "%d segundo"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:501
 msgid "%h - Host"
-msgstr "%h - Hostalaria"
+msgstr "%h - Ostalaria"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:517
 #, c-format
 msgid "%p - Password"
-msgstr "%p - Sarhitza"
+msgstr "%p - Pasahitza"
 
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:159
 #, c-format
@@ -132,12 +132,12 @@ msgstr "%s - Proxy erabiltzailea"
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:91
 #, c-format
 msgid "%s and %s. Total size: %s"
-msgstr "%s eta %s. Neurria guztira: %s"
+msgstr "%s eta %s. Tamaina guztira: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:89
 #, c-format
 msgid "%s and %s. Total size: At least %s"
-msgstr "%s eta %s. Neurria guztira: Gutxienez %s"
+msgstr "%s eta %s. Tamaina guztira: gutxienez %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/sizeformatting_base.cpp:34
 #, c-format
@@ -155,11 +155,11 @@ msgid ""
 "Please download FileZilla again. If this problem persists, please submit a "
 "bug report."
 msgstr ""
-"%s ezin da aurkitu. FileZilla-ren osagai hau gabe, SFTP-ak ez du lan "
-"egingo.\n"
+"%s ezin izan da aurkitu. FileZilla-ren osagai hau gabe, SFTPak ez du "
+"funtzionatuko.\n"
 "\n"
-"Mesedez jeitsi FileZilla berriro. Arazo honek jarraitzen badu, mesedez "
-"aurkeztu akats jakinarazpen bat."
+"Mesedez deskargatu FileZilla berriro. Arazo honek jarraitzen badu, mesedez "
+"eman errorearen berri."
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:760
 #, c-format
@@ -171,18 +171,18 @@ msgid ""
 "- Make sure %s is in a directory listed in your PATH environment variable.\n"
 "- Set the full path to %s in the FZ_FZSFTP environment variable."
 msgstr ""
-"%s ezin da aurkitu. FileZilla-ren osagai hau gabe, SFTP-ak ez du lan "
-"egingo.\n"
+"%s ezin izan da aurkitu. FileZilla-ren osagai hau gabe, SFTPak ez du "
+"funtzionatuko.\n"
 "\n"
-"Ahalezko konponbideak:\n"
-"- Zihurtatu %s zure HELBURU inguru aldakorrean zerrendaturiko zuzenbide "
-"batean dagoela.\n"
-"- Ezarri helburu osoa %s-ra FZ_FZSFTP inguru aldakorrean."
+"Konponbide posibleak:\n"
+"- Ziurtatu %s zure PATH ingurune aldagaian zerrendaturiko direktorio batean "
+"dagoela.\n"
+"- Ezarri bide osoa %s(e)ra FZ_FZSFTP ingurune aldagaian."
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:58
 #, c-format
 msgid "%s with %d bits"
-msgstr "%s %d bit-rekin"
+msgstr "%s %d bitekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:509
 #, c-format
@@ -191,11 +191,11 @@ msgstr "%u - Erabiltzaile-izena"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:540
 msgid "%w - Proxy password"
-msgstr "%w - Proxy sarhitza"
+msgstr "%w - Proxy pasahitza"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3404
 msgid "&Abort previous connection and connect in current tab"
-msgstr "Utzi aurreko elkarketa eta elkartu oraingo hegatsean"
+msgstr "&Utzi aurreko konexioa eta konektatu uneko fitxan"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:232
 msgid "&About..."
@@ -214,45 +214,45 @@ msgstr "A&ktiboa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:205
 msgid "&Add bookmark..."
-msgstr "&Gehitu lastermarka..."
+msgstr "&Gehitu laster-marka..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:244
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:290
 msgid "&Add files to queue"
-msgstr "Gehitu &agiriak lerrora"
+msgstr "&Gehitu fitxategiak ilarara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:645
 msgid "&Add keyfile..."
-msgstr "&Gehitu Giltza-agiria..."
+msgstr "&Gehitu gako-fitxategia..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:490
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:549
 msgid "&Add to queue"
-msgstr "Gehitu &Lerrora"
+msgstr "&Gehitu ilarara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:328
 msgid "&Adjust server timezone offset:"
-msgstr "Zehaztu zerbitzariaren orduere&mu oreka:"
+msgstr "&Doitu zerbitzariaren ordu-eremuaren desplazamendua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/certificate.xrc:251
 msgid "&Always trust certificate in future sessions."
-msgstr "&Betik fidatu egiaztagiriaz etorkizuneko saioetan."
+msgstr "&Fidatu egiaztagiriarekin etorkizuneko saioetan."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:895
 msgid "&Always trust this host, add this key to the cache"
-msgstr "&Betik fidatu hostalari honetaz, gehitu giiltza hau katxera"
+msgstr "&Fidatu ostalari honekin beti, gehitu gako hau cache-ra"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1929
 msgid "&Always use default editor"
-msgstr "Beti&k erabili berezko editatzailea"
+msgstr "&Erabili editore lehenetsia beti"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2887
 msgid "&Always use selection for unassociated files"
-msgstr "&Betik erabili hautapena elkartugabeko agirientzat"
+msgstr "&Erabili beti hautapena loturarik gabeko fitxategiekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:190
 msgid "&Always use this action"
-msgstr "&Betik erabili ekintza hau"
+msgstr "&Erabili ekintza hau beti"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:341
 msgid "&Ask your operating system for the external IP address"
@@ -262,27 +262,26 @@ msgstr "&Galdetu zure sistema eragileari kanpoko IP helbidea"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:584
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1022
 msgid "&Auto"
-msgstr "&Berez"
+msgstr "&Automatikoki"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:461
 msgid "&Autodetect"
-msgstr "Berez&-atzeman"
+msgstr "&Automatikoki detektatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:148
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:592
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1037
 msgid "&Binary"
-msgstr "Bi&narioa"
+msgstr "&Bitarra"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1591
 msgid "&Binary prefixes using SI symbols. (e.g. 1 KB = 1024 bytes)"
 msgstr ""
-"&SI sinboloak erabiltzen dituzten aurrizki binarioak. (adib. 1 KB = 1024 "
-"bytes)"
+"&SI sinboloak erabiltzen dituzten aurrizki bitarrak. (adb. 1 KB = 1024 byte)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:203
 msgid "&Bookmarks"
-msgstr "Laster&markak"
+msgstr "&Laster-markak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2193
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2604
@@ -293,11 +292,11 @@ msgstr "Laster&markak"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2116
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:295
 msgid "&Browse..."
-msgstr "&Bilatu..."
+msgstr "&Arakatu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:936
 msgid "&Burst tolerance:"
-msgstr "Ja&sangarritasun leherketa"
+msgstr "&Segida-tolerantzia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:385
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1025
@@ -322,60 +321,60 @@ msgstr "It&xi FileZilla"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:629
 msgid "&Configure speed limits..."
-msgstr "&Itxuratu abiadura mugak..."
+msgstr "&Konfiguratu abiadura mugak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:163
 msgid "&Configure..."
-msgstr "&Itxuratu..."
+msgstr "&Konfiguratu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:540
 msgid "&Connect"
-msgstr "&Elkartu"
+msgstr "&Konektatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:12
 msgid "&Copy current connection to Site Manager..."
-msgstr "&Kopiatu oraingo elkarketa Gune Kudeatzailera..."
+msgstr "&Kopiatu uneko konexioa Gune-kudeatzailera..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:803
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:420
 msgid "&Copy to clipboard"
-msgstr "&Kopiatu gakora"
+msgstr "&Kopiatu arbelera"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:439
 msgid "&Crash"
-msgstr "&Matxura"
+msgstr "&Kraskadura"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:263
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:303
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:496
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:560
 msgid "&Create directory"
-msgstr "Sortu &zuzenbidea"
+msgstr "&Sortu direktorioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:609
 msgid "&Create new tab"
-msgstr "Sortu &hegats berria"
+msgstr "&Sortu fitxa berria"
 
 #: ../../source/FileZilla3/locales/../src/interface/menu_bar.cpp:72
 msgid "&Debug"
-msgstr "&Garbiketa"
+msgstr "&Arazketa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2205
 msgid "&Debug information in message log:"
-msgstr "&Garbiketa argibideak mezu oharrean:"
+msgstr "&Arazketako informazioa mezu-logean:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1871
 msgid "&Default editor:"
-msgstr "&Berezko editatzailea:"
+msgstr "&Editore lehenetsia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:135
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:348
 msgid "&Default file exists action..."
-msgstr "&Berezko ekintza badagoen agiriarentzat..."
+msgstr "&Ekintza lehenetsia fitxategia existitzen denean..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:155
 msgid "&Delay between failed login attempts:"
-msgstr "&Atzerapena huts egindakosasio haste saiakera artean:"
+msgstr "&Huts egindako saioa hasiera saiakeren arteko atzerapena:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1069
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1241
@@ -388,66 +387,65 @@ msgstr "E&zabatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3140
 msgid "&Delete symlink"
-msgstr "Ezabatu &Sinblotura"
+msgstr "&Ezabatu esteka sinbolikoa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:70
 msgid "&Directory comparison"
-msgstr "&Zuzenbide alderaketa"
+msgstr "&Direktorio-konparaketa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1812
 msgid "&Discard local file then download and edit file anew"
-msgstr "&Baztertu tokiko agiria ondoren jeitsi eta editatu agiria berriro"
+msgstr "&Baztertu fitxategi lokala, ondoren deskargatu eta editatu fitxategia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:184
 msgid "&Disconnect"
-msgstr "&Eten"
+msgstr "&Deskonektatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:380
 msgid "&Disconnect from server"
-msgstr "Eten elkarketa &zerbitzaritik"
+msgstr "&Deskonektatu zerbitzaritik"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1372
 msgid "&Display momentary transfer speed instead of average speed"
-msgstr "Erakutsi &uneko eskualdaketa abiadura bataz-besteko abiaduraren ordez"
+msgstr "&Bistaratu uneko transferentzia-abiadura batezbesteko abiaduraren ordez"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1578
 msgid "&Display size in bytes"
-msgstr "&Erakutsi neurria byte-tan"
+msgstr "&Bistaratu tamaina bytetan"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3573
-#, fuzzy
 msgid "&Do not remember passwords (recommended)"
-msgstr "E&z gogoratu sarhitzak"
+msgstr "&Ez gogoratu pasahitzak (gomendatua)"
 
 #: ../../source/FileZilla3/locales/../src/interface/conditionaldialog.cpp:25
 msgid "&Don't show this dialog again."
-msgstr "&Ez erakutsi elkarrizketa hau berriro."
+msgstr "&Ez erakutsi elkarrizketa-koadro hau berriro."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:389
 msgid "&Don't use external IP address on local connections."
-msgstr "Ez e&rabili kanpoko IP helbiderik tokiko elkarketetan."
+msgstr "Ez e&rabili kanpoko IP helbiderik konexio lokaletan."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1785
 msgid "&Double-click action on files:"
-msgstr "Klik-&bikoitz ekintza agirietan:"
+msgstr "Klik-&bikoitz ekintza fitxategietan:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:285
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:485
 msgid "&Download"
-msgstr "&Jeitsi"
+msgstr "&Deskargatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3029
 msgid "&Download to:"
-msgstr "Jeitsi &hona:"
+msgstr "Deskargatu &hona:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:598
 msgid "&Download..."
-msgstr "&Jeitsi..."
+msgstr "&Deskargatu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1400
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1147
 msgid "&Downloads:"
-msgstr "&Jeisketak:"
+msgstr "&Deskargak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:45
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:258
@@ -456,7 +454,7 @@ msgstr "&Editatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1167
 msgid "&Edit filter rules..."
-msgstr "&Editatu iragazki arauak..."
+msgstr "&Editatu iragazki-arauak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:72
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:159
@@ -468,23 +466,23 @@ msgstr "&Gaitu"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3462
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:877
 msgid "&Enable speed limits"
-msgstr "&Gaitu abiadura mugak"
+msgstr "&Gaitu abiadura-mugak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:486
 msgid "&Encoding:"
-msgstr "&Kodeaketa:"
+msgstr "&Kodeketa:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:141
 msgid "&Encryption:"
-msgstr "Enk&riptaketa:"
+msgstr "&Zifratzea:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:416
 msgid "&Enter custom command..."
-msgstr "&Sartu norbere agindua..."
+msgstr "&Sartu komando pertsonalizatua..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3397
 msgid "&Establish connection in a new tab"
-msgstr "Ezarri &elkarketa hegats berri batean"
+msgstr "Ezarri &konexioa fitxa berri batean"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:427
 msgid "&Execute"
@@ -492,7 +490,7 @@ msgstr "&Exekutatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1574
 msgid "&Export Site Manager entries"
-msgstr "Esportatu &Gune Kudeaketa sarrerak"
+msgstr "Esportatu &Gune-kudeaketako sarrerak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:27
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:579
@@ -505,27 +503,27 @@ msgstr "&Itzuli modu aktibora"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:5
 msgid "&File"
-msgstr "&Agiria"
+msgstr "&Fitxategia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:517
 msgid "&File Attributes..."
-msgstr "&Agiri Ezaugarriak..."
+msgstr "&Fitxategi-atributuak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:331
 msgid "&File permissions..."
-msgstr "&Agiri baimenak..."
+msgstr "&Fitxategi-baimenak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2181
 msgid "&File:"
-msgstr "&Agiria:"
+msgstr "&Fitxategia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1288
 msgid "&Filter conditions:"
-msgstr "Iragazki baldi&ntzak:"
+msgstr "Iragazi baldi&ntzak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1046
 msgid "&Filter sets:"
-msgstr "&Iragazki ezarpenak:"
+msgstr "&Iragazi bildumak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1219
 msgid "&Filters:"
@@ -533,23 +531,24 @@ msgstr "&Iragazkiak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1751
 msgid "&Finish editing and delete local file"
-msgstr "&Amaitu edizioa eta ezabatu tokiko agiria"
+msgstr "&Amaitu edizioa eta ezabatu fitxategi lokala"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3065
+#, fuzzy
 msgid ""
 "&Flatten remote paths, download all contained files directly into target "
 "directory"
 msgstr ""
-"&Lautu hurruneko helburuak, jeitsi agiri guztiak zuzenean xede zuzenbide "
-"barnera"
+"&Lautu urruneko bideak, deskargatu fitxategi guztiak zuzenean helburuko "
+"direktoriora"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3147
 msgid "&Follow symlink, delete target directory contents"
-msgstr "&Hurrengo sinblotura, ezabatu xede zuzenbideko edukiak"
+msgstr "&Jarraitu esteka sinbolikoa, ezabatu helburuko direktorioaren edukiak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:367
 msgid "&Get external IP address from the following URL:"
-msgstr "&Lortu kanpoko IP helbidea hurrengo URL-tik:"
+msgstr "&Eskuratu kanpoko IP helbidea hurrengo URLtik:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:225
 msgid "&Getting help..."
@@ -557,11 +556,11 @@ msgstr "&Lortu laguntza..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2535
 msgid "&Global bookmark"
-msgstr "&Lastermarka orokorra"
+msgstr "&Laster-marka orokorra"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:705
 msgid "&HTTP/1.1 using CONNECT method"
-msgstr "H&TTP/1.1 ELKARKETA metodoa erabiliz"
+msgstr "&HTTP/1.1 CONNECT metodoa erabiliz"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:215
 msgid "&Help"
@@ -570,25 +569,25 @@ msgstr "&Laguntza"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:87
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:538
 msgid "&Hide identical files"
-msgstr "&Ezkutatu agiri berdinak"
+msgstr "&Ezkutatu fitxategi berberak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:353
 msgid "&Highest"
-msgstr "&Handiena"
+msgstr "&Altuena"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:305
 msgid "&Highest available port:"
-msgstr "Ataka eskuragarri &handiena:"
+msgstr "Ataka eskuragarri &altuena:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2328
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/quickconnectbar.xrc:26
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:94
 msgid "&Host:"
-msgstr "Hostalaria&:"
+msgstr "&Ostalaria:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1586
 msgid "&IEC binary prefixes (e.g. 1 KiB = 1024 bytes)"
-msgstr "&IEC binario aurrizkiak (adib. 1 KiB = 1024 byte)"
+msgstr "&IEC aurrizki bitarrak (adb. 1 KiB = 1024 byte)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1472
 msgid "&ISO 8601 (example: 2007-09-15)"
@@ -600,80 +599,80 @@ msgstr "&Inportatu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1962
 msgid "&Inherit system's filetype associations"
-msgstr "Ondorengotu sistemaren agirimota elkarketak"
+msgstr "&Heredatu sistemaren fitxategi-mota asoziazioak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:109
 msgid "&Install new version"
-msgstr "Ezarri &bertsio berria"
+msgstr "&Instalatu bertsio berria"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3058
 msgid "&Keep remote path structure relative to search root"
-msgstr "&Heutsi hurruneko helburu egitura erlatiboari erroa bilatzeko"
+msgstr "&Mantendu urruneko bide-egitura erlatiboa erroa bilatzeko"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1246
 msgid "&Layout of file and directory panes:"
-msgstr "&Agiri eta zuzenbide panelen antolakuntza:"
+msgstr "&Fitxategi eta direktorioen panelen diseinua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:268
 msgid "&Limit local ports used by FileZilla"
-msgstr "&Mugatu FileZillak erabiltzeko tokiko atakak"
+msgstr "&Mugatu FileZillak erabilitako ataka lokalak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:415
 msgid "&Limit number of simultaneous connections"
-msgstr "&Mugatu aldibereko elkarketa zenbatekoa"
+msgstr "&Mugatu aldibereko konexio kopurua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:114
 msgid "&Local directory tree"
-msgstr "T&okiko zuzenbide zuhaitza"
+msgstr "Direktorio &lokalen zuhaitza"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2589
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2672
 msgid "&Local directory:"
-msgstr "&Tokiko zuzenbidea:"
+msgstr "&Direktorio lokala:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2093
 msgid "&Log to file"
-msgstr "&Oharreratu agirira"
+msgstr "&Erregistratu fitxategian"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:165
 msgid "&Logon Type:"
-msgstr "Saio-haste &Mota:"
+msgstr "&Saio-hasiera mota:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2384
 msgid "&Logontype:"
-msgstr "&Saio-haste-mota:"
+msgstr "&Saio-hasiera mota:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:365
 msgid "&Low"
-msgstr "&Apala"
+msgstr "&Baxua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:209
 msgid "&Manage bookmarks..."
-msgstr "&Kudeatu lastermarkak..."
+msgstr "&Kudeatu laster-markak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:169
 msgid "&Manual transfer..."
-msgstr "&Eskuzko eskualdaketa..."
+msgstr "&Eskuzko transferentzia..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:425
 msgid "&Maximum number of connections:"
-msgstr "Gehi&nezko elkarketa zenbatekoa:"
+msgstr "&Gehienezko konexio kopurua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:137
 msgid "&Maximum number of retries:"
-msgstr "&Gehinezko sarrera zenbatekoa:"
+msgstr "&Gehienezko saiakera-kopurua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:110
 msgid "&Message log"
-msgstr "&Mezu oharra"
+msgstr "&Mezu-loga"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1324
 msgid "&Minimize to tray"
-msgstr "&Ikurtu erretilura"
+msgstr "&Ikonotu erretilura"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1712
 msgid "&Name sorting mode:"
-msgstr "Izen antolaketa &modua:"
+msgstr "&Izen antolaketa modua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2562
 msgid "&Name:"
@@ -681,7 +680,7 @@ msgstr "&Izena:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:47
 msgid "&Network configuration wizard..."
-msgstr "&Sare itxurapen laguntzailea..."
+msgstr "&Sarea konfiguratzeko morroia..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1235
 msgid "&New"
@@ -720,11 +719,11 @@ msgstr "&Zenbakizko balioa:"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2808
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:548
 msgid "&OK"
-msgstr "&Ongi"
+msgstr "&Ados"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:473
 msgid "&OPEN"
-msgstr "&IREKI"
+msgstr "&Ireki"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:254
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:555
@@ -741,11 +740,11 @@ msgstr "&Pasiboa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:346
 msgid "&Password:"
-msgstr "&Sarhitza"
+msgstr "&Pasahitza:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:392
 msgid "&Play sound"
-msgstr "&Irakurri soinua"
+msgstr "&Erreproduzitu soinua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2341
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/quickconnectbar.xrc:74
@@ -755,19 +754,19 @@ msgstr "A&taka:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:153
 msgid "&Preserve timestamps of transferred files"
-msgstr "&Heutsi eskualdaturiko agirien denbora-irarketei"
+msgstr "&Mantendu transferitutako fitxategien data-zigiluak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1638
 msgid "&Queue"
-msgstr "&Lerroa"
+msgstr "&Ilara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/quickconnectbar.xrc:97
 msgid "&Quickconnect"
-msgstr "Elkarketa&-azkarra"
+msgstr "Konexio &azkarra"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:106
 msgid "&Quickconnect bar"
-msgstr "&Elkarketa-azkarra barra"
+msgstr "Konexio &azkarra barra"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:415
 msgid "&Read"
@@ -775,29 +774,29 @@ msgstr "&Irakurri"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:180
 msgid "&Reconnect"
-msgstr "&Berrelkartu"
+msgstr "&Birkonektatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:61
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:620
 msgid "&Refresh"
-msgstr "&Berritu"
+msgstr "&Freskatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:366
 msgid "&Remember password until FileZilla is closed"
-msgstr "&Gogoratu sarhitzak FileZilla itxi arte"
+msgstr "&Gogoratu pasahitza FileZilla itxi arte"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3567
 msgid "&Remember passwords"
-msgstr "&Gogoratu sarhitzak"
+msgstr "&Gogoratu pasahitzak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2616
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2696
 msgid "&Remote directory:"
-msgstr "&Hurruneko zuzenbidea:"
+msgstr "&Urruneko direktorioa:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2217
 msgid "&Remote path:"
-msgstr "Hur&runeko helburua:"
+msgstr "&Urruneko bidea:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1085
 msgid "&Remove"
@@ -805,11 +804,11 @@ msgstr "&Kendu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:650
 msgid "&Remove key"
-msgstr "&Kendu giltza"
+msgstr "&Kendu gakoa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:345
 msgid "&Remove selected"
-msgstr "&Kendu hautaturikoa(k)"
+msgstr "&Kendu hautapena"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1247
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2753
@@ -819,7 +818,7 @@ msgstr "&Kendu hautaturikoa(k)"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:573
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:53
 msgid "&Rename"
-msgstr "Be&rrizendatu"
+msgstr "&Berrizendatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1064
 msgid "&Rename..."
@@ -827,23 +826,23 @@ msgstr "&Berrizendatu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1805
 msgid "&Reopen local file"
-msgstr "&Berrireki tokiko agiria"
+msgstr "&Ireki berriz fitxategi lokala"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:985
 msgid "&Replace invalid characters with:"
-msgstr "&Ordeztu baliogabeko hizkiak honekin:"
+msgstr "&Ordeztu baliogabeko karaktereak honekin:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:228
 msgid "&Report a bug..."
-msgstr "&Jakinarazi akats bat..."
+msgstr "&Jakinarazi errore bat..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:453
 msgid "&Reset and requeue all"
-msgstr "&Berrezarri eta lerrokatu denak"
+msgstr "&Berrezarri eta ilaran jarri denak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:428
 msgid "&Restart Wizard"
-msgstr "&Berrekin Laguntzailea"
+msgstr "&Berrabiarazi morroia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:164
 msgid "&Resume"
@@ -851,23 +850,23 @@ msgstr "&Berrekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:384
 msgid "&Run command..."
-msgstr "&Ekin agindua..."
+msgstr "&Exekutatu komandoa..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:76
 msgid "&Run configuration wizard now..."
-msgstr "&Ekin itxurapen laguntzailea orain..."
+msgstr "&Exekutatu konfiguratzeko morroia orain..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2055
 msgid "&Run update check now..."
-msgstr "&Ekin eguneraketa egiaztapena orain..."
+msgstr "&Exekutatu eguneraketen egiaztapena orain..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:468
 msgid "&SITE"
-msgstr "G&UNEA"
+msgstr "&Gunea"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:715
 msgid "&SOCKS 5"
-msgstr "SO&CKS 5"
+msgstr "&SOCKS 5"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1058
 msgid "&Save as..."
@@ -879,11 +878,11 @@ msgstr "&Bilatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:189
 msgid "&Search remote files..."
-msgstr "B&ilatu hurruneko agiriak..."
+msgstr "&Bilatu urruneko fitxategiak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:18
 msgid "&Select Entry:"
-msgstr "&Hautatu Sarrera:"
+msgstr "&Hautatu sarrera:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1837
 msgid "&Select language:"
@@ -891,7 +890,7 @@ msgstr "&Hautatu hizkuntza:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2067
 msgid "&Select the columns that should be displayed:"
-msgstr "&Hautatu erakutsi behar diren zutabeak:"
+msgstr "&Hautatu bistaratu beharreko zutabeak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2256
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:174
@@ -908,7 +907,7 @@ msgstr "&Ezarpenak..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2194
 msgid "&Show debug menu"
-msgstr "&Erakutsi garbiketa menua"
+msgstr "&Erakutsi arazketa-menua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:388
 msgid "&Show message"
@@ -916,59 +915,59 @@ msgstr "&Erakutsi mezua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2088
 msgid "&Show timestamps in message log"
-msgstr "&Erakuktsi denbora-irarketak mezu oharrean"
+msgstr "&Erakutsi data-zigiluak mezu-logean"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:7
 msgid "&Site Manager..."
-msgstr "&Gune Kudeatzailea..."
+msgstr "&Gune-kudeatzailea..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2543
 msgid "&Site-specific bookmark"
-msgstr "G&une-bereizi lastermarka"
+msgstr "&Gune zehatzerako laster-marka"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:180
 msgid "&Skip"
-msgstr "&Jauzi"
+msgstr "&Saltatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:165
 msgid "&Speed limits"
-msgstr "&Abiadura mugak"
+msgstr "&Abiadura-mugak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3076
 msgid "&Start transfer immediately"
-msgstr "&Hasi eskualdaketa berehala"
+msgstr "&Hasi transferentzia berehala"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1267
 msgid "&Swap local and remote panes"
-msgstr "Elkarraldatu tokiko eta hurruneko &panelak"
+msgstr "&Trukatu panel urruneko eta lokalak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:444
 msgid "&TLS Ciphers"
-msgstr "&TLS Zifraketak"
+msgstr "&TLS zifraketak"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:244
 msgid "&Test"
-msgstr "&Aztertu"
+msgstr "&Probatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1399
 msgid "&Theme:"
-msgstr "&Azalgaia:"
+msgstr "&Gaia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:127
 msgid "&Transfer"
-msgstr "Es&kualdatu"
+msgstr "&Transferitu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:382
 msgid "&Transfer mode:"
-msgstr "&Eskualdaketa modua:"
+msgstr "&Transferentzia modua:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:122
 msgid "&Transfer queue"
-msgstr "Esk&ualdaketa lerroa"
+msgstr "&Transferentzia ilara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1109
 msgid "&Treat dotfiles as ASCII files"
-msgstr "T&ratatu dotagiriak ASCII agiri bezala"
+msgstr "&Puntu-fitxategiak ASCII fitxategitzat hartu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1865
 msgid "&Unedit"
@@ -976,29 +975,29 @@ msgstr "&Deseditatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1006
 msgid "&Update cached key for this host"
-msgstr "&Eguneratu hostalari honentzat katxeaturiko giltza"
+msgstr "&Eguneratu ostalari honen cache-ko gakoa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:239
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:544
 msgid "&Upload"
-msgstr "&Igo"
+msgstr "&Kargatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1423
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1168
 msgid "&Uploads:"
-msgstr "&Igoerak:"
+msgstr "&Kargatzeak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2862
 msgid "&Use custom program"
-msgstr "&Erabili norbere programa"
+msgstr "&Erabili programa pertsonalizatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:316
 msgid "&Use synchronized browsing"
-msgstr "Era&bili bilaketa aldiberetua"
+msgstr "&Erabili arakaketa sinkronizatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1882
 msgid "&Use system's default editor for text files"
-msgstr "E&rabili sistemaren idazki agirietarako berezko editatzailea"
+msgstr "&Erabili sistemaren testu-fitxategien editore lehenetsia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:347
 msgid "&Use the following IP address:"
@@ -1006,26 +1005,26 @@ msgstr "&Erabili hurrengo IP helbidea:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:420
 msgid "&Use the server's external IP address instead"
-msgstr "&Erabili zerbitzariaren kanpoko IP helbidea ordez"
+msgstr "&Erabili zerbitzariaren kanpoko IP helbidea"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1601
 msgid "&Use thousands separator"
-msgstr "Erabili &milako banantzailea"
+msgstr "&Erabili milako bereizlea"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:335
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2397
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:179
 msgid "&User:"
-msgstr "Era&biltzailea:"
+msgstr "&Erabiltzailea:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/quickconnectbar.xrc:44
 msgid "&Username:"
-msgstr "E&rabiltzaile-izena:"
+msgstr "&Erabiltzaile-izena:"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1735
 #, c-format
 msgid "&Version %s"
-msgstr "&Bertsioa %s"
+msgstr "%s &bertsioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:59
 msgid "&View"
@@ -1038,11 +1037,12 @@ msgstr "&Ikusi/Editatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1939
 msgid "&Watch locally edited files and prompt to upload modifications"
-msgstr "&Ikusi tokian editaturiko agiriak eta galdetu aldaketak igotzeko"
+msgstr ""
+"&Ikusi lokalean editaturiko fitxategiak eta galdetu aldaketak kargatzeko"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2031
 msgid "&When checking for updates, check for:"
-msgstr "Eguneraketak egiaztatzerakoan, egiaztatu hau:"
+msgstr "Eguneraketak egiaztatzerakoan, egiaztatu &hau:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:421
 msgid "&Write"
@@ -1056,58 +1056,59 @@ msgstr "&Bai"
 #: ../../source/FileZilla3/locales/../src/engine/local_path.cpp:508
 #, c-format
 msgid "'%s' does not exist or cannot be accessed."
-msgstr "'%s' ez dago edo ez dago sarbiderik."
+msgstr "'%s' ez da existitzen edo ezin da atzitu."
 
 #: ../../source/FileZilla3/locales/../src/engine/local_path.cpp:474
 #: ../../source/FileZilla3/locales/../src/engine/local_path.cpp:495
 #: ../../source/FileZilla3/locales/../src/engine/local_path.cpp:502
 #, c-format
 msgid "'%s' is not a directory."
-msgstr "'%s' ez da zuzenbide bat."
+msgstr "'%s' ez da direktorio bat."
 
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:445
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:961
 msgid "'Account' logontype not supported by selected protocol"
-msgstr "'Kontua' saiohaste-mota ez dago eskuragarri hautaturiko protokolorako."
+msgstr "'Kontua' saio-hasiera mota ez da onartzen hautaturiko protokoloan."
 
 #: ../../source/FileZilla3/locales/../src/interface/manual_transfer.cpp:459
 msgid ""
 "'Normal' and 'Account' logontypes are not available, using 'Ask for "
 "password' instead."
 msgstr ""
-"'Arrunta' eta 'Kontua' saiohaste-motak ez daude eskuragarri, 'Galdetu "
-"sarhitza' erabiltzen ordez."
+"'Arrunta' eta 'Kontua' saio-hasiera motak ez daude eskuragarri, 'Galdetu "
+"pasahitza' erabiliko da."
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:976
 msgid ""
 "'Normal' and 'Account' logontypes are not available. Your entry has been "
 "changed to 'Ask for password'."
 msgstr ""
-"'Arrunta' eta 'Kontua' saiohaste-motak ez daude eskuragarri, Zure sarrera "
-"'Galdetu sarhitza'-ra aldatu da."
+"'Arrunta' eta 'Kontua' saio-hasiera motak ez daude eskuragarri. Zure sarrera "
+"'Galdetu pasahitza'-ra aldatu da."
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:612
+#, fuzzy
 msgid ""
 "'quote' is usually a local command used by commandline clients to send the "
 "arguments following 'quote' to the server. You might want to enter the raw "
 "command without the leading 'quote'."
 msgstr ""
-"'aipamena' arrunt agindulerro bezeroek zerbitzariari argumentoak 'aipamea'-z "
-"jarraiturik bidaltzeko erabiltzen duten tokiko agindu bat da. Badaiteke zuk "
-"idazki agindua sartu nahi izatea 'aipamen' buru gabe."
+"'quote' komando-lerroko bezeroek zerbitzarira argumentuak bidaltzeko "
+"erabilitako komando lokal bat da normalean. Erabili komando gordina aurretik "
+"'quote' gabe."
 
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:96
 #: ../../source/FileZilla3/locales/../src/interface/filelist_statusbar.cpp:105
 #, c-format
 msgid "(%d object filtered)"
 msgid_plural "(%d objects filtered)"
-msgstr[0] "(%d objetu iragazita)"
-msgstr[1] "(%d objetu iragazita)"
+msgstr[0] "(objektu %d iragazita)"
+msgstr[1] "(%d objektu iragazita)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:839
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:860
 msgid "(0 for no limit)"
-msgstr "(0 mugagabe)"
+msgstr "(0k mugarik ez esan nahi du)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:149
 msgid "(0-99)"
@@ -1115,7 +1116,7 @@ msgstr "(0-99)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:167
 msgid "(0-999 seconds)"
-msgstr "(0-999 segundu)"
+msgstr "(0-999 segundo)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:818
 msgid "(1-10)"
@@ -1123,13 +1124,13 @@ msgstr "(1-10)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:109
 msgid "(5-9999, 0 to disable)"
-msgstr "(5-9999, 0 ezgaitzeko)"
+msgstr "(5-9999, 0 desgaitzeko)"
 
 #: ../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:84
 #: ../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:161
 #, c-format
 msgid "(app-compat is set to %d.%d)"
-msgstr "(app-compat ezarri da honela %d.%d)"
+msgstr "(app-compat ezarri da honela: %d.%d)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1539
 msgid "(example: %H:%M)"
@@ -1145,7 +1146,7 @@ msgstr "(adibidea: %Y-%m-%d)"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:925
 #, c-format
 msgid "(in %s/s)"
-msgstr "(honela %s/s)"
+msgstr "(hemen: %s/s)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:295
 msgid "-"
@@ -1153,7 +1154,7 @@ msgstr "-"
 
 #: ../../source/FileZilla3/locales/../src/interface/statuslinectrl.cpp:207
 msgid "--:--:-- left"
-msgstr "--:--:-- gelditzen da"
+msgstr "--:--:-- falta da"
 
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:88
 msgid "-c cannot be used together with an FTP URL."
@@ -1161,11 +1162,11 @@ msgstr "-c ezin da FTP URL batekin batera erabili."
 
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:97
 msgid "-l can only be used together with an FTP URL."
-msgstr "-l FTP URL batekin batera bakarrik erabili daiteke."
+msgstr "-l FTP URL batekin batera soilik erabil daiteke."
 
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:76
 msgid "-s and -c cannot be present at the same time."
-msgstr "-s eta -c ezin dira aldiberean egon"
+msgstr "-s eta -c ezin dira aldi berean erabili."
 
 #: ../../source/FileZilla3/locales/../src/interface/cmdline.cpp:82
 msgid "-s cannot be used together with an FTP URL."
@@ -1177,11 +1178,11 @@ msgstr "0 - Ezer ez"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2216
 msgid "1 - Warning"
-msgstr "1 - Oharrak"
+msgstr "1 - Abisua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2217
 msgid "2 - Info"
-msgstr "2 - Argibideak"
+msgstr "2 - Informazioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2218
 msgid "3 - Verbose"
@@ -1193,7 +1194,7 @@ msgstr "32 biteko sistema"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2219
 msgid "4 - Debug"
-msgstr "4 - Garbiketa"
+msgstr "4 - Arazketa"
 
 #: ../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:95
 msgid "64 bit system"
@@ -1211,18 +1212,18 @@ msgstr "?"
 msgid ""
 "A bookmark with the entered name already exists. Please enter an unused name."
 msgstr ""
-"Jadanik badago sartutako izena duen lastermarka bat. Mesedez sartu erabili "
-"gabeko izen bat"
+"Laster-marka bat existitzen da sartutako izenarekin dagoeneko. Mesedez sartu "
+"erabili gabeko izen bat."
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:95
 msgid "A default editor needs to be set."
-msgstr "Berezko editatzaile bat ezerri beharra dago."
+msgstr "Editore lehenetsi bat ezarri behar da."
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:808
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:157
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:116
 msgid "A directory cannot be dragged into one of its subdirectories."
-msgstr "Zuzenbide bat ezin da bere azpizuzenbideetako batera arrastatu."
+msgstr "Direktorio bat ezin da bere azpidirektorio batera arrastatu."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:60
 msgid ""
@@ -1230,33 +1231,33 @@ msgid ""
 "you would have to use active mode. In active mode, FileZilla opens a port "
 "and asks the server to connect to it."
 msgstr ""
-"Zerbitzari gutxi batzuek ez dute modu pasiboa ahalbidetzen edo desitxuratuta "
-"daude. Horrelakoetan modu aktiboa erabili behar duzu. Modu aktiboan, "
-"FileZillak ataka bat ireki eta zerbitzariari galdetzen dio berarekin "
-"elkartzeko."
+"Zerbitzari gutxi batzuek ez dute modu pasiboa ahalbidetzen edo gaizki "
+"konfiguratuta daude. Horrelakoetan modu aktiboa erabili behar duzu. Modu "
+"aktiboan, FileZillak ataka bat ireki eta zerbitzariari berarekin "
+"konektatzeko eskatzen dio."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1677
 msgid "A file previously opened has been changed."
-msgstr "Aurretik irekitako agiri bat aldatua izan da."
+msgstr "Aurretik irekitako fitxategi bat aldatu da."
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1665
 #, c-format
 msgid ""
 "A file with that name is already being edited. Do you want to reopen '%s'?"
 msgstr ""
-"Jadanik badago izen horrekin editatzen ari den agiri bat. '%s' berrirekitzea "
-"nahi duzu?"
+"Izen hori duen fitxategi bat editatua izaten ari da dagoeneko. '%s' berriz "
+"ireki nahi duzu?"
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1655
 msgid "A file with that name is already being transferred."
-msgstr "Izen hori duen agiri batek jadanik hasita du eskualdaketa."
+msgstr "Izen hori duen fitxategi bat transferitzen ari da dagoeneko."
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1659
 msgid ""
 "A file with that name is still being edited. Please close it and try again."
 msgstr ""
-"Oraindik izen horrekin editatzen ari den agiri bat dago. Mesedez itxi eta "
-"saiatu berriro."
+"Izen hori duen fitxategi bat editatua izaten ari da oraindik. Mesedez, itxi "
+"eta saiatu berriro."
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:654
 msgid ""
@@ -1266,32 +1267,32 @@ msgid ""
 "Unless you fix this problem, files might be missing in the file listings.\n"
 "No further warning will be displayed this session."
 msgstr ""
-"Tokiko agirizen bat ezin da dekodeatu.\n"
-"Mesedez zihurtatu LC_CTYPE (edo LC_ALL) inguru aldaera zuzen ezarrita "
-"dagoela.\n"
-"Arazo hau zuzentzen ez baduzu, agiriak galdu egin daitezke agiri "
-"zerrendapenetatik.\n"
-"Ez da ohar gehiago erakutsiko saio honetan."
+"Ezin izan da fitxategi lokal bat deskodetu.\n"
+"Mesedez ziurtatu LC_CTYPE (edo LC_ALL) ingurune aldagaia behar bezala "
+"ezarrita dagoela.\n"
+"Arazo hau zuzentzen ez baduzu, fitxategi batzuk ez dira fitxategi-"
+"zerrendetan agertuko.\n"
+"Ez da beste abisurik bistaratuko saio honetan."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/update.xrc:50
 msgid "A new version of FileZilla is available:"
-msgstr "FileZilla bertsio berri bat eskuragarri dago:"
+msgstr "FileZillaren bertsio berri bat eskuragarri dago:"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:681
 msgid ""
 "A proper server always shows all files, but some broken servers hide files "
 "from the user. Use this option to force the server to show all files."
 msgstr ""
-"Zerbitzari egoki batek betik erakusten ditu agiri guztiak, baina zenbait "
-"zerbitzari hautsik erabiltzaile agiriak ezkutatzen dituzte. Erabili aukera "
-"hau zerbitzaria agiri guztiak erakustera behartzeko."
+"Zerbitzari egoki batek beti erakusten ditu fitxategi guztiak, baina zenbait "
+"zerbitzari akastunek fitxategiak ezkutatzen dizkiote erabiltzaileari. "
+"Erabili aukera hau zerbitzaria fitxategi guztiak erakustera behartzeko."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:245
 msgid ""
 "A proper server does not require this. Contact the server administrator if "
 "you need this."
 msgstr ""
-"Zerbitzari egoki batek ez du hau behar. Jarri harremanetan zerbitzari "
+"Zerbitzari egoki batek ez du hau behar. Jarri harremanetan zerbitzariaren "
 "administratzailearekin hau behar baduzu."
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:281
@@ -1299,8 +1300,8 @@ msgid ""
 "A remote operation is in progress and synchronized browsing is enabled.\n"
 "Disable synchronized browsing and continue changing the local directory?"
 msgstr ""
-"Hurruneko eragiketa garatzen ari da eta bilaketa aldiberetua gaituta dago.\n"
-"Ezgaitu bilaketa aldiberetua eta jarraitu tokiko zuzenbidea aldatzen?"
+"Urruneko eragiketa garatzen ari da eta bilaketa sinkronizatua gaituta dago.\n"
+"Desgaitu bilaketa sinkronizatua eta direktorio lokala aldatzen jarraitu?"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:144
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:588
@@ -1314,23 +1315,23 @@ msgstr "&Gehitu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1215
 msgid "A&llow resume of ASCII files"
-msgstr "&Ahalbidetu ASCII agirien berrekitea"
+msgstr "&Baimendu ASCII fitxategien berrekitea"
 
 #: ../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:70
 msgid "A&pply only to downloads"
-msgstr "Ezarri &jeisketei bakarrik"
+msgstr "&Aplikatu deskargei soilik"
 
 #: ../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:70
 msgid "A&pply only to uploads"
-msgstr "Ezarri &igoerei bakarrik"
+msgstr "&Aplikatu kargei soili"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:547
 msgid "A&pply to all files and directories"
-msgstr "Ezarri &agiri eta zuzenbide guztiei."
+msgstr "&Aplikatu fitxategi eta direktorio guztiei."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:479
 msgid "A&utomatically remove successful transfers"
-msgstr "&Berezgaitasunekz kendu ongi buruturiko eskualdaketak"
+msgstr "Kendu &automatikoki transferentzia arrakastatsuak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2474
 msgid "ASCII"
@@ -1342,7 +1343,7 @@ msgstr "FileZilla-ri buruz"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1294
 msgid "Above the file lists"
-msgstr "Agiri zerrenden gainean"
+msgstr "Fitxategi-zerrendaren gainean"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:836
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:855
@@ -1358,15 +1359,15 @@ msgstr "Kontua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:374
 msgid "Action after queue &completion"
-msgstr "&Lerroa osatu ondorengo ekintza"
+msgstr "Ilara &osatu ondorengo ekintza"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1858
 msgid "Action on selected file:"
-msgstr "Ekintza hautaturiko agirian:"
+msgstr "Ekintza hautaturiko fitxategian:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1800
 msgid "Action to perform:"
-msgstr "Egiteko ekintza:"
+msgstr "Egin beharreko ekintza:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:129
 msgid "Action:"
@@ -1381,7 +1382,7 @@ msgid ""
 "Active mode FTP test failed. FileZilla does not know the correct external IP "
 "address."
 msgstr ""
-"Modu aktiboko FTP azterketa hutsegitea. FileZillak ez du kanpoko IP helbide "
+"Modu aktiboko FTP probak huts egin du. FileZillak ez du kanpoko IP helbide "
 "zuzena ezagutzen."
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:608
@@ -1389,8 +1390,9 @@ msgid ""
 "Active mode FTP test failed. FileZilla does not know the correct external IP "
 "address. In addition to that, your router has modified the sent address."
 msgstr ""
-"Modu aktiboko FTP azterketa hutsegitea. FileZillak ez du kanpoko IP helbide "
-"zuzena ezagutzen. Gainera, zure bideratzaileak bidalitako helbidea aldatu du."
+"Modu aktiboko FTP probak huts egin du. FileZillak ez du kanpoko IP helbide "
+"zuzena ezagutzen. Gainera, zure bideratzaileak bidalitako helbidea aldatu "
+"du."
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:596
 msgid ""
@@ -1398,36 +1400,36 @@ msgid ""
 "address, but your router or firewall has misleadingly modified the sent "
 "address."
 msgstr ""
-"Modu aktiboko FTP azterketa hutsegitea. FileZillak kanpoko IP helbide zuzena "
+"Modu aktiboko FTP probak huts egin du. FileZillak kanpoko IP helbide zuzena "
 "ezagutzen du, baina zure bideratzaileak edo suhesiak bidalitako helbidea "
 "gaizkiulertuz aldatu du."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:398
 msgid "Active mode IP"
-msgstr "Modu aktibo IP-a"
+msgstr "Modu aktiboko IPa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3083
 msgid "Add files to &queue only"
-msgstr "&Gehitu agiriak lerrora bakarrik"
+msgstr "&Gehitu fitxategiak soilik ilarara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:492
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:551
 msgid "Add selected directory to the transfer queue"
-msgstr "Gehitu hautaturiko zuzenbidea eskualdaketa lerrora"
+msgstr "Gehitu hautaturiko direktorioa transferentzia-ilarara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:246
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:292
 msgid "Add selected files and folders to the transfer queue"
-msgstr "Gehitu hautaturiko agiriak eta agiritegiak eskualdaketa lerrora"
+msgstr "Gehitu hautaturiko fitxategiak eta karpetak transferentzia-ilarara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1793
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1813
 msgid "Add to queue"
-msgstr "Gehitu lerrora"
+msgstr "Gehitu ilarara"
 
 #: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:510
 msgid "Address type not supported"
-msgstr "Helbide mota ez dago sostengaturik"
+msgstr "Helbide mota ez dago onartzen"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:241
 msgid "Advanced"
@@ -1441,15 +1443,15 @@ msgid ""
 "expected and might even damage your system. Use beta versions and nightly "
 "builds at your own risk."
 msgstr ""
-"Oharra: Ezaugarri berriak aztertzea nahi ez badituzu, mesedez jarraitu "
-"bertsio egonkorrak bakarrik erabiltzen. Beta bertsioak eta gau eraiketak "
-"azterketa asmoetarako garapen bertsioak dira. FileZilla-ren gau bertsioek "
-"badaiteke itxaron bezala lan ez egitea eta zure sistema kaltetu dezakete. "
-"Erabili beta bertsioak eta gau eraiketak zeure arriskupean."
+"Oharra: Ezaugarri berriak egiaztatu nahi ez badituzu, mesedez jarraitu "
+"bertsio egonkorrak bakarrik erabiltzen. Beta bertsioak eta gaueroko "
+"konpilazioak probetarako garapen-bertsioak dira. FileZilla-ren gaueroko "
+"batzutan ez dute espero bezala funtzionatzen eta zure sistema kaltetu "
+"dezakete. Erabili beta bertsioak eta gaueroko konpilazioak zeure ardurapean."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3414
 msgid "Al&ways perform this action"
-msgstr "&Betik burutu ekintza hau"
+msgstr "&Burutu ekintza hau beti"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1937
 msgid "Algorithm:"
@@ -1457,18 +1459,20 @@ msgstr "Algoritmoa:"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3049
 msgid "All files have been successfully transferred"
-msgstr "Agiri guztiak ongi eskualdatu dira"
+msgstr "Fitxategi guztiak behar bezala transferitu dira"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:308
 msgid "All ports in the given range have to be between 1024 and 65535."
-msgstr "Emaniko ataka guztiak 1024 eta 65535 arteko mailan egon behar dira."
+msgstr "Emaniko barrutiko ataka guztiek 1024 eta 65535 artean egon behar dute."
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:3045
 #, c-format
 msgid "All transfers have finished. %d file could not be transferred."
 msgid_plural "All transfers have finished. %d files could not be transferred."
-msgstr[0] "Eskualdaketa denak amaitu dira. %d agiri ezin izan dira eskualdatu."
-msgstr[1] "Eskualdaketa denak amaitu dira. %d agiri ezin izan dira eskualdatu."
+msgstr[0] ""
+"Transferentzia guztiak amaitu dira. Ezin izan da fitxategi %d transferitu."
+msgstr[1] ""
+"Transferentzia guztiak amaitu dira. Ezin izan dira %d fitxategi transferitu."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:213
 msgid "Allow &fall back to other transfer mode on failure"
