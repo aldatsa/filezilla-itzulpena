@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Filezilla\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-24 14:31+0100\n"
-"PO-Revision-Date: 2014-11-25 21:05+0200\n"
+"PO-Revision-Date: 2014-11-26 22:34+0200\n"
 "Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Librezale\n"
 "Language: eu\n"
@@ -2479,14 +2479,13 @@ msgid "Could not copy URLs"
 msgstr "Ezin izan dira URLak kopiatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:175
-#, fuzzy
 msgid "Could not copy data"
 msgstr "Ezin izan dira datuak kopiatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/updater.cpp:432
 #, c-format
 msgid "Could not create local file %s\n"
-msgstr "Ezin da tokiko agirira sortu %s\n"
+msgstr "Ezin izan da fitxategi lokala sortu %s\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2312
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:914
@@ -2495,13 +2494,13 @@ msgid ""
 "Either the shell extension is not installed properly or you didn't drop the "
 "files into an Explorer window."
 msgstr ""
-"Ezin da Arrastatu-eta-Askatu eragiketaren xedea zehaztu.\n"
-"Shell luzapena ez dago egoki ezarrita edo ezin dituzu agiriak askatu "
-"Explorer-en leiho batean."
+"Ezin izan da arrastatu eta jaregin eragiketaren helburua zehaztu.\n"
+"Shell hedapena ez dago behar bezala instalatuta edo ezin dituzu fitxategiak "
+"jaregin Explorer-en leiho batean."
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4158
 msgid "Could not establish connection to server"
-msgstr "Ezin da elkarketarik ezarri zerbitzariarekin"
+msgstr "Ezin izan da konexiorik ezarri zerbitzariarekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/FileZilla.cpp:486
 msgid ""
@@ -2510,46 +2509,52 @@ msgid ""
 "<custompath>' commandline option or by setting the FZ_DATADIR environment "
 "variable."
 msgstr ""
-"Ezin dira FileZilla-rentzako baliabide agiriak aurkitu, FileZilla isten.\n"
-"FileZilla-ren datu zuzenbidea ezarri dezakezu '--datadir <norbere-helburua>' "
-"agindulerro aukera erabiliz edo FZ_DATADIR inguru aldakorra ezarriz."
+"Ezin izan dira FileZilla-rentzako baliabide-fitxategiak aurkitu, FileZilla "
+"ixten.\n"
+"FileZilla-ren datu-direktorioa ezar dezakezu '--datadir "
+"<bide_pertsonalizatua>' komando lerroko aukera erabiliz edo FZ_DATADIR "
+"inguruneko aldagaia ezarriz."
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:689
 msgid "Could not generate custom login sequence."
-msgstr "Ezin da norbere ohar sekuentziarik sortu."
+msgstr "Ezin izan da saio-hasierako sekuentzia sortu."
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:954
 msgid ""
 "Could not get distinguished name of certificate issuer, "
 "gnutls_x509_get_issuer_dn failed"
 msgstr ""
-"Ezin da egiaztaturiko jaulkitzaile izena ezagutu, gnutls_x509_get_issuer_dn "
-"hutsegitea"
+"Ezin izan da ziurtagiriaren jaulkitzailearen izen bereizia eskuratu, "
+"gnutls_x509_get_issuer_dn hutsegitea"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:931
 msgid ""
 "Could not get distinguished name of certificate subject, gnutls_x509_get_dn "
 "failed"
-msgstr "Ezin da egiaztaturiko gai izena ezagutu, gnutls_x509_get_dn hutsegitea"
+msgstr ""
+"Ezin izan da ziurtagiriaren subjektuaren izen bereizia eskuratu, "
+"gnutls_x509_get_dn hutsegitea"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:976
 msgid "Could not get full remote path."
-msgstr "Ezin da hurreneko helburu osoa lortu."
+msgstr "Ezin izan da urruneko bide osoa eskuratu."
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:150
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:167
 msgid "Could not get reply from fzputtygen."
-msgstr "Ezin da erantzunik lortu fzputtygen-tik."
+msgstr "Ezin izan da erantzunik lortu fzputtygen-tik."
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:721
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2365
 msgid "Could not get temporary directory to download file into."
-msgstr "Ezin da aldibaterako zuzenbidea lortu agiria bertara jeisteko."
+msgstr ""
+"Ezin izan da aldi baterako direktorioa eskuratu fitxategia bertara "
+"deskargatzeko."
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:874
 msgid "Could not import peer certificates, gnutls_x509_crt_import failed"
 msgstr ""
-"Ezin dira hartzaile egiaztagiriak inportatu, gnutls_x509_crt_inportazio "
+"Ezin izan dira pare-ziurtagiriak inportatu, gnutls_x509_crt_import "
 "hutsegitea"
 
 #: ../../source/FileZilla3/locales/../src/engine/tlssocket.cpp:869
@@ -2557,7 +2562,7 @@ msgid ""
 "Could not initialize structure for peer certificates, gnutls_x509_crt_init "
 "failed"
 msgstr ""
-"Ezin da hartzaile egiaztagirientzako egitura abiarazi,, gnutls_x509_crt_init "
+"Ezin izan da pare-ziurtagirientzako egitura hasieratu, gnutls_x509_crt_init "
 "hutsegitea"
 
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:95
@@ -2568,17 +2573,17 @@ msgid ""
 "accessed.\n"
 "Any changes made in the Site Manager will not be saved."
 msgstr ""
-"Ezin da \"%s\" gertatu, mesedez zihuratu agiria baliozkoa dela eta sarbidea "
-"duela.\n"
-"Gune Kudeatzailean eginiko aldaketak ez dira gordeko."
+"Ezin izan da \"%s\" kargatu, mesedez ziurtatu fitxategia baliozkoa dela eta "
+"atzi daitekeela.\n"
+"Gune-kudeatzailean eginiko aldaketak ez dira gordeko."
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:223
 msgid "Could not load keyfile"
-msgstr "Ezin da giltzagiria gertatu"
+msgstr "Ezin izan da gako-fitxategia kargatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:300
 msgid "Could not load private key"
-msgstr "Ezin da giltza pribatua gertatu"
+msgstr "Ezin izan da gako pribatua kargatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:1002
 #, c-format
@@ -2587,8 +2592,10 @@ msgid ""
 "'%s'.\n"
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr ""
-"Ezin da dagokion tokiko zuzenbidea lortu '%s' hurruneko zuzenbidearentzat .\n"
-"Ezgaitu bilaketa aldiberetua eta jarraitu hurruneko zuzenbidea aldatzen?"
+"Ezin izan da dagokion direktorio lokala lortu urruneko '%s' "
+"direktorioarentzat.\n"
+"Bilaketa sinkronizatua desgaitu eta urruneko direktorioa aldatzen jarraitu "
+"nahi duzu?"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:391
 #, c-format
@@ -2597,8 +2604,9 @@ msgid ""
 "'%s'.\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"Ezin da dagokion tokiko zuzenbidea lortu '%s' hurruneko zuzenbidearentzat .\n"
-"Bilaketa aldiberetua ezgaitua izan da."
+"Ezin izan da dagokion direktorio lokala lortu urruneko '%s' "
+"direktorioarentzat.\n"
+"Arakatze sinkronizatua desgaitu da."
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:292
 #, c-format
@@ -2607,65 +2615,67 @@ msgid ""
 "'%s'.\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"Ezin da dagokion hurreneko zuzenbidea lortu '%s' tokiko zuzenbidearentzat .\n"
-"Bilaketa aldiberetua ezgaitua izan da."
+"Ezin izan da dagokion urruneko direktorioa lortu '%s' direktorio "
+"lokalarentzat.\n"
+"Arakatze sinkronizatua desgaitu da."
 
 #: ../../source/FileZilla3/locales/../src/interface/aboutdialog.cpp:175
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2693
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1466
 msgid "Could not open clipboard"
-msgstr "Ezin da gakoa ireki"
+msgstr "Ezin izan da arbela ireki"
 
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:104
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:171
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:203
 #, c-format
 msgid "Could not open log file: %s"
-msgstr "Ezin da ohar agiria ireki: %s"
+msgstr "Ezin izan da log-fitxategia ireki: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:70
 msgid "Could not parse remote path."
-msgstr "Ezin da hurreneko helburua aztertu."
+msgstr "Ezin izan da urruneko bidea analizatu."
 
 #: ../../source/FileZilla3/locales/../src/interface/quickconnectbar.cpp:82
 msgid "Could not parse server address:"
-msgstr "Ezin da zerbitzari helbidea aztertu:"
+msgstr "Ezin izan da zerbitzariaren helbidea analizatu:"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:226
 #, c-format
 msgid "Could not read from socket: %s"
-msgstr "Ezin da socketik irakurri: %s"
+msgstr "Ezin izan da socket-etik irakurri: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:488
 msgid "Could not read server item."
-msgstr "Ezin da zerbitzari gaia irakurri."
+msgstr "Ezin izan da zerbitzariko elementua irakurri."
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:2639
 #, c-format
 msgid "Could not seek to offset %s within file"
-msgstr "Ezin da %s orekatzeko agiri gabe bilatu"
+msgstr ""
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:2567
 msgid "Could not seek to the end of the file"
-msgstr "Ezin da agiri amaiera arte bilatu"
+msgstr "Ezin izan da fitxategi amaiera arte bilatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:136
 msgid "Could not send command to fzputtygen."
-msgstr "Agirimota arriskutsua"
+msgstr "Ezin izan da komandoa fzputtygen-era bidali."
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:2667
+#, fuzzy
 msgid "Could not spawn IO thread"
-msgstr "Ezin da SI haria sortu"
+msgstr "Ezin izan da SI haria sortu"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1116
 #, c-format
 msgid "Could not start proxy handshake: %s"
-msgstr "Ezin da proxy eskuematea hasi: %s"
+msgstr "Ezin izan da proxy bostekoa hasi: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1089
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1094
 msgid "Could not start transfer"
-msgstr "Ezin da eskualdaketa hasi"
+msgstr "Ezin izan da transferentzia hasi"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:658
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:818
@@ -2673,17 +2683,20 @@ msgstr "Ezin da eskualdaketa hasi"
 msgid ""
 "Could not write \"%s\", any changes to the Site Manager could not be saved: "
 "%s"
-msgstr "Ezin da idatzi \"%s\", Gune Kudeatzaile aldaketak ezin dira gorde: %s"
+msgstr ""
+"Ezin izan da \"%s\" idatzi, Gune-kudeatzailean egindako aldaketak ezin izan "
+"dira gorde: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:842
 #, c-format
 msgid "Could not write \"%s\", the bookmark could not be added: %s"
-msgstr "Ezin da idatzi \"%s\", lastermarka ezin da gehitu: %s"
+msgstr "Ezin izan da \"%s\" idatzi, laster-marka ezin izan da gehitu: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/bookmarks_dialog.cpp:324
 #, c-format
 msgid "Could not write \"%s\", the global bookmarks could no be saved: %s"
-msgstr "Ezin da idatzi \"%s\", lastermarka orokorrak ezin dira gorde: %s"
+msgstr ""
+"Ezin izan da \"%s\" idatzi, laster-marka orokorrak ezin izan dira gorde: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1922
 #, c-format
@@ -2691,7 +2704,7 @@ msgid ""
 "Could not write \"%s\", the queue could not be saved.\n"
 "%s"
 msgstr ""
-"Ezin da idatzi \"%s\", lerroa ezin da gorde.\n"
+"Ezin izan da \"%s\" idatzi, ilara ezin izan da gorde.\n"
 "%s"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager.cpp:776
@@ -2699,33 +2712,34 @@ msgstr ""
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:2171
 #, c-format
 msgid "Could not write \"%s\", the selected sites could not be exported: %s"
-msgstr "Ezin da idatzi \"%s\", hautaturiko guenak ezin dira esportatu: %s"
+msgstr ""
+"Ezin izan da \"%s\" idatzi, hautatutako guneak ezin izan dira esportatu: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/xmlfunctions.cpp:124
 #, c-format
 msgid "Could not write \"%s\":"
-msgstr "Ezin da idatzi \"%s\":"
+msgstr "Ezin izan da \"%s\" idatzi:"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:325
 #, c-format
 msgid "Could not write keyfile: %s"
-msgstr "Ezin da giltzagiria idatzi: %s"
+msgstr "Ezin izan da gako-fitxategia idatzi: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1084
 msgid "Could not write to local file"
-msgstr "Ezin da tokiko agirira idatzi"
+msgstr "Ezin izan da fitxategi lokalean idatzi"
 
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:211
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:276
 #, c-format
 msgid "Could not write to log file: %s"
-msgstr "Ezin da ohar agirira idatzi: %s"
+msgstr "Ezin izan da log-fitxategian idatzi: %s"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:943
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1038
 #, c-format
 msgid "Could not write to socket: %s"
-msgstr "Ezin da idatzi socketera: %s"
+msgstr "Ezin izan da socket-era idatzi: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:178
 msgid "Country:"
@@ -2734,75 +2748,75 @@ msgstr "Herrialdea:"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:440
 msgid "Crashes FileZilla instantly. Only used to debug the exception handler"
 msgstr ""
-"FileZilla berehala matxuratzen du. Salbuespen kudeatzaile garbiketarako "
-"erabiltzen da bakarrik."
+"FileZilla berehala kraskatzen du. Salbuespen-maneiatzailea arazteko soilik "
+"erabiltzen da."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:311
 msgid "Crea&te new file"
-msgstr "&Sortu agiri berria"
+msgstr "&Sortu fitxategi berria"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:264
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:304
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:497
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:561
 msgid "Create a new subdirectory in the current directory"
-msgstr "Sortu azpizuzenbide berri bat oraingo zuzenbidean"
+msgstr "Sortu azpidirektorio berria uneko direktorioan"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:268
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:308
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:501
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:565
 msgid "Create a new subdirectory in the current directory and change into it"
-msgstr "Sortu azpizuzenbide berri bat oraingo zuzenbidean eta aldatu bertara"
+msgstr "Sortu azpidirektorio berria uneko direktorioan eta aldatu bertara"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:312
 msgid "Create a new, empty file in the current directory"
-msgstr "Sortu agiri huts berri bat oraingo zuzenbidean"
+msgstr "Sortu fitxategi huts berria uneko direktorioan"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:267
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:307
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:500
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:564
 msgid "Create director&y and enter it"
-msgstr "&Sortu zuzenbidea eta sartu hura"
+msgstr "&Sortu direktorioa eta sartu bertara"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalListView.cpp:921
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1174
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:1357
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:1306
 msgid "Create directory"
-msgstr "Sortu zuzenbidea"
+msgstr "Sortu direktorioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2780
 msgid "Create empty file"
-msgstr "Sortu agiri hutsa"
+msgstr "Sortu fitxategi hutsa"
 
 #: ../../source/FileZilla3/locales/../src/interface/QueueView.cpp:1480
 msgid "Creating directory"
-msgstr "Zuzenbide sortzea"
+msgstr "Direktorioa sortzen"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:3224
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:1941
 #, c-format
 msgid "Creating directory '%s'..."
-msgstr "'%s' zuzenbidea sortzen..."
+msgstr "'%s' direktorioa sortzen..."
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:180
 msgid "Critical error"
-msgstr "Akats larria"
+msgstr "Errore larria"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:170
 msgid "Critical error:"
-msgstr "Akats larria:"
+msgstr "Errore larria:"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:133
 msgid "Critical file transfer error"
-msgstr "Agiri eskualdaketa akats larria"
+msgstr "Fitxategi-transferentzia errore larria"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:116
 #, c-format
 msgid "Critical file transfer error after transferring %s in %s"
-msgstr "Agiri eskualdaketa akats larria %s -> %s eskualdatu ondoren"
+msgstr "Fitxategi-transferentzia errore larria %s %s(e)ra transferitu ondoren"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:382
 #, c-format
@@ -2810,47 +2824,47 @@ msgid ""
 "Current remote directory (%s) is not below the synchronization root (%s).\n"
 "Synchronized browsing has been disabled."
 msgstr ""
-"Oraingo hurreneko zuzenbidea (%s) ez dago aldibereturiko erroaren (%s) "
+"Uneko urruneko direktorioa (%s) ez dago sinkronizatutako erroaren (%s) "
 "azpian.\n"
-"Bilaketa aldiberetua ezgaitu egin da."
+"Arakatze sinkronizatua desgaitu da."
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:388
 msgid "Current transfer type is set to ASCII."
-msgstr "Oraingo eskualdaketa mota bezala ASCII ezarri da."
+msgstr "Uneko transferentzia-mota ASCII bezala ezarrita dago."
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:398
 msgid "Current transfer type is set to automatic detection."
-msgstr "Oraingo eskualdaketa mota berezgaitasunezko atzemate bezala ezarri da."
+msgstr "Uneko transferentzia-mota automatikoki detektatzeko ezarrita dago."
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:393
 msgid "Current transfer type is set to binary."
-msgstr "Oraingo eskualdaketa mota binariora ezarri da."
+msgstr "Uneko transferentzia-mota bitar bezala ezarrita dago."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:478
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1526
 msgid "Cus&tom"
-msgstr "E&gilea"
+msgstr "&Pertsonalizatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/filter.cpp:100
 msgid "Custom filter set"
-msgstr "Norbere iragazki ezarpena"
+msgstr "Iragazki-sorta pertsonalizatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2307
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2321
 msgid "Custom server"
-msgstr "Norbere zerbitzaria"
+msgstr "Zerbitzari pertsonalizatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2443
 msgid "D&ata type"
-msgstr "&Datu mota"
+msgstr "&Datu-mota"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1596
 msgid "D&ecimal prefixes using SI symbols (e.g. 1 KB = 1000 bytes)"
-msgstr "&Hamarren aurrizkiak NS sinboloak erabiliz (adib. 1 KB = 1000 byte)"
+msgstr "Aurrizki &hamartarrak SI sinboloak erabiliz (adb. 1 KB = 1000 byte)"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:392
 msgid "D&efault"
-msgstr "&Berezkoa"
+msgstr "&Lehenetsia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:319
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:505
@@ -2860,115 +2874,115 @@ msgstr "E&zabatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1101
 msgid "D&isable all"
-msgstr "Ezgaitu &denak"
+msgstr "Desgaitu &denak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1319
 msgid "D&o not save passwords"
-msgstr "&Ez gorde sarhitzak"
+msgstr "&Ez gorde pasahitzak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1802
 msgid "D&ouble-click action on directories:"
-msgstr "&Klik-bikoitz ekintza zuzenbideetan:"
+msgstr "&Klik-bikoitzaren ekintza direktorioetan:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1253
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2765
 msgid "D&uplicate"
-msgstr "Bi&koitza"
+msgstr "Bi&koiztu"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:34
 msgid "DOS-like with virtual paths"
-msgstr "DOS-bezala helburu birtualekin"
+msgstr "DOS-bezalakoa bide birtualekin"
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1641
 msgid "Dangerous filetype"
-msgstr "Agirimota arriskutsua"
+msgstr "Fitxategi-mota arriskutsua"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:41
 msgid "Data"
-msgstr "Eguna"
+msgstr "Datuak"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:1000
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:1064
 msgid "Data socket closed too early."
-msgstr "Datu socketa goizegi itxi da."
+msgstr "Datuen socket-a azkarregi itxi da."
 
 #: ../../source/FileZilla3/locales/../src/interface/filter_conditions_dialog.cpp:155
 msgid "Date"
-msgstr "Eguna"
+msgstr "Data"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1460
 msgid "Date formatting"
-msgstr "Egun heuskarria"
+msgstr "Data-formatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:104
 msgid "Date/time format"
-msgstr "Egun/ordu heuskarria"
+msgstr "Data/denbora formatua"
 
 #: ../../source/FileZilla3/locales/../src/interface/fileexistsdlg.cpp:47
 msgid "Date/time unknown"
-msgstr "Egun/ordu ezezaguna"
+msgstr "Data/denbora ezezaguna"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/settingsdialog.cpp:116
 msgid "Debug"
-msgstr "Garbiketa"
+msgstr "Arazketa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2187
 msgid "Debugging settings"
-msgstr "Garbiketa ezarpenak"
+msgstr "Arazketako ezarpenak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:279
 msgid "Default &local directory:"
-msgstr "Berezko &tokiko zuzenbidea:"
+msgstr "Direktorio &lokal lehenetsia:"
 
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:26
 msgid "Default (Autodetect)"
-msgstr "Berez (Berez-atzeman)"
+msgstr "Lehenetsia (Automatikoki detektatu)"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_edit.cpp:81
 msgid "Default editor not properly quoted."
-msgstr "Berezko editatzailea ez dago egoki aipatuta."
+msgstr ""
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1380
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1450
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1194
 msgid "Default file exists action"
-msgstr "Berezko ekintza dauden agirientzat"
+msgstr "Fitxategia existitzen da ekintza lehenetsia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:304
 msgid "Default r&emote directory:"
-msgstr "Berezko h&urruneko zuzenbidea:"
+msgstr "&Urruneko direktorio lehenetsia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1066
 msgid ""
 "Default remote path cannot be parsed. Make sure it is a valid absolute path "
 "for the selected server type."
 msgstr ""
-"Berezko hurruneko helburua ezin da aztertu. Zihurtatu baliozko helburu oso "
-"bat dela hautaturiko zerbitzari motarentzat."
+"Urruneko bide lehenetsia ezin da analizatu. Ziurtatu hautatutako zerbitzari-"
+"motaren baliozko bide absolutua dela."
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_language.cpp:71
 msgid "Default system language"
-msgstr "Sistemaren berezko hizkuntza"
+msgstr "Sistemaren hizkuntza lehenetsia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:68
 msgid "Default transfer mode:"
-msgstr "Berezko eskualdaketa modua:"
+msgstr "Transferentzia modu lehenetsia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1018
 msgid "Default transfer type:"
-msgstr "Berezko eskualdaketa mota:"
+msgstr "Transferentzia-mota lehenetsia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:233
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:380
 msgid "Default: http://ip.filezilla-project.org/ip.php"
-msgstr "Berezkoa: http://ip.filezilla-project.org/ip.php"
+msgstr "Lehenetsia: http://ip.filezilla-project.org/ip.php"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection.cpp:41
 msgid ""
 "Delay between failed connection attempts has to be between 1 and 999 seconds."
 msgstr ""
-"Huts egindako elkarketa arteko saiakera 1 eta 999 segundu artekoa izan behar "
-"da."
+"Huts egindako konexio-saiakeren arteko atzerapena 1 eta 999 segundo artekoa "
+"izan behar da."
 
 #: ../../source/FileZilla3/locales/../src/engine/engineprivate.cpp:442
 #, c-format
@@ -2979,38 +2993,39 @@ msgid_plural ""
 "Delaying connection for %d seconds due to previously failed connection "
 "attempt..."
 msgstr[0] ""
-"Elkarketa %d segunduz atzeratzen aurretik huts egindako elkarketa "
-"saiakeragaitik..."
+"Konexioa segundo %d-ez atzeratzen aurretik konexio-saiakerak huts egin "
+"duelako..."
 msgstr[1] ""
-"Elkarketa %d segunduz atzeratzen aurretik huts egindako elkarketa "
-"saiakeragaitik..."
+"Konexioa %d segundoz atzeratzen aurretik konexio-saiakerak huts egin "
+"duelako..."
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1228
 msgid "Delete Site Manager entry"
-msgstr "Ezabatu Gune Kudeatzaile sarrera"
+msgstr "Ezabatu Gune-kudeatzailearen sarrera"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:506
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:570
 msgid "Delete selected directory"
-msgstr "Ezabatu hautaturiko zuzenbidea"
+msgstr "Ezabatu hautatutako direktorioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:276
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:320
 msgid "Delete selected files and directories"
-msgstr "Ezabatu hautaturiko agiriak eta zuzenbideak"
+msgstr "Ezabatu hautatutako fitxategiak eta direktorioak"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:765
 msgid "Deleting directories"
-msgstr "Zuzenbide ezabaketa"
+msgstr "Direktorioak ezabatzen"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:765
 msgid "Deleting multiple unrelated directories is not yet supported"
 msgstr ""
-"Loturagabeko zuzenbideen ezabaketa anitza oraindik ez dago sostengaturik"
+"Erlaziorik gabeko direktorio anitzen ezabaketa ez dago sustengaturik "
+"oraindik"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3118
 msgid "Deleting symbolic link"
-msgstr "Lotura sinbolikoaren ezabaketa"
+msgstr "Esteka sinbolikoa ezabatzen"
 
 #: ../../source/FileZilla3/locales/../src/interface/LocalTreeView.cpp:1009
 msgid "Desktop"
@@ -3024,11 +3039,11 @@ msgstr "Xehetasunak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:962
 msgid "Details for new key:"
-msgstr "Giltza berriarentzako xehetasunak:"
+msgstr "Gako berriaren xehetasunak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1337
 msgid "Dire&ctories"
-msgstr "Z&uzenbideak"
+msgstr "&Direktorioak"
 
 #: ../../source/FileZilla3/locales/../src/interface/queue.cpp:1197
 msgid "Direction"
@@ -3036,7 +3051,7 @@ msgstr "Helbidea"
 
 #: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:271
 msgid "Directory"
-msgstr "Zuzenbidea"
+msgstr "Direktorioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:522
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1740
@@ -3044,45 +3059,48 @@ msgstr "Zuzenbidea"
 #: ../../source/FileZilla3/locales/../src/interface/filelistctrl.cpp:459
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:2254
 msgid "Directory comparison"
-msgstr "Zuzenbide alderaketa"
+msgstr "Direktorio-konparaketa"
 
 #: ../../source/FileZilla3/locales/../src/interface/listingcomparison.cpp:74
 #: ../../source/FileZilla3/locales/../src/interface/listingcomparison.cpp:82
 #: ../../source/FileZilla3/locales/../src/interface/listingcomparison.cpp:88
 msgid "Directory comparison failed"
-msgstr "Zuzenbide alderaketa hutsegitea"
+msgstr "Direktorio-konparaketak huts egin du"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_logging.cpp:71
 msgid "Directory containing the logfile does not exist or filename is invalid."
-msgstr "Ohar-agiria duen zuzenbidea ez dago edo agirizena baliogabea da."
+msgstr ""
+"Log-fitxategia duen direktorioa ez da existitzen edo fitxategi-izena ez da "
+"baliozkoa."
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:191
 msgid "Directory listing aborted by user"
-msgstr "Zuzenbide zerrendapena erabiltzileak utzita"
+msgstr "Direktorio-zerrendatzea erabiltzaileak utzita"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2114
 msgid "Directory listing failed"
-msgstr "Zuzenbide zerrendatze hutsegitea"
+msgstr "Direktorio-zerrendatzeak huts egin du"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1035
 msgid "Directory listing filters"
-msgstr "Zuzenbide zerrendatze iragazkiak"
+msgstr "Direktorio-zerrendatzearen iragazkiak"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:195
 msgid "Directory listing successful"
-msgstr "Zuzenbidea ongi zerrendatu da"
+msgstr "Direktorio-zerrendatze arrakastatsua"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1137
 msgid "Disa&ble all"
-msgstr "Ezgaitu de&nak"
+msgstr "Desgaitu de&nak"
 
 #: ../../source/FileZilla3/locales/../src/interface/state.cpp:1010
 msgid ""
 "Disable synchronized browsing and continue changing the remote directory?"
 msgstr ""
-"Ezgaitu bilaketa aldiberetua eta jarraitu hurruneko zuzenbidea aldatzen?"
+"Bilaketa sinkronizatua desgaitu eta urruneko direktorioa aldatzen jarraitu?"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:683
+#, fuzzy
 msgid ""
 "Disable this option again if you will not be able to see the correct "
 "directory contents anymore."
@@ -3179,35 +3197,35 @@ msgstr "Klik-bikoitz ekintza"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2150
 msgid "Download"
-msgstr "Jeitsi"
+msgstr "Deskargatu"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3470
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:886
 msgid "Download &limit:"
-msgstr "Jeisketa &muga:"
+msgstr "Deskarga-&muga:"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:574
 #, c-format
 msgid "Download limit: %s/s"
-msgstr "Jeisketa muga: %s/s"
+msgstr "Deskarga-muga: %s/s"
 
 #: ../../source/FileZilla3/locales/../src/interface/statusbar.cpp:576
 msgid "Download limit: none"
-msgstr "Jeisketa muga: ezer ez"
+msgstr "Deskarga-muga: bat ere ez"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:3017
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:507
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:513
 msgid "Download search results"
-msgstr "Jeisketa bilaketa emaitzak"
+msgstr "Deskargatu bilaketaren emaitzak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:487
 msgid "Download selected directory"
-msgstr "Jeitsi hautaturiko zuzenbidea"
+msgstr "Deskargatu hautatutako direktorioa"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:287
 msgid "Download selected files and directories"
-msgstr "Jeitsi hautaturiko agiriak eta zuzenbideak"
+msgstr "Deskargatu hautatutako fitxategiak eta direktorioak"
 
 #: ../../source/FileZilla3/locales/../src/interface/Mainfrm.cpp:1017
 #, c-format
@@ -3215,22 +3233,21 @@ msgid ""
 "Download speed: %s/s\n"
 "Upload speed: %s/s"
 msgstr ""
-"Jeisketa abiadura: %s/s\n"
-"Igoera abiadura: %s/s"
+"Deskarga-abiadura: %s/s\n"
+"Karga-abiadura: %s/s"
 
 #: ../../source/FileZilla3/locales/../src/interface/edithandler.cpp:1133
 msgid "Downloading"
-msgstr "Jeisketa"
+msgstr "Deskargatzen"
 
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:339
 #, c-format
 msgid "Downloading %s"
-msgstr "%s jeisten"
+msgstr "%s deskargatzen"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:616
 msgid "Downloading multiple unrelated directories is not yet supported"
-msgstr ""
-"Loturagabeko zuzenbideen jeisketa anitza oraindik ez dago sostengaturik"
+msgstr "Loturagabeko zuzenbideen jeisketa anitza oraindik ez dago sostengaturik"
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:616
 msgid "Downloading search results"
@@ -3415,7 +3432,7 @@ msgstr "Sartu izen berri bat iragazki-ezarpenerako"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:253
 msgid "Enter password"
-msgstr "Idatzi sarhitza"
+msgstr "Idatzi pasahitza"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:250
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:296
@@ -3535,12 +3552,11 @@ msgstr "Akatsa xml agiria idazterakoan"
 #: ../../source/FileZilla3/locales/../src/interface/StatusView.cpp:274
 #: ../../source/FileZilla3/locales/../src/interface/StatusView.cpp:328
 msgid "Error:"
-msgstr "Akatsa:"
+msgstr "Errorea:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1984
 msgid "Example: png \"c:\\program files\\viewer\\viewer.exe\" -open"
-msgstr ""
-"Adibidea: png \"c:\\programa agiriak\\ikusgailua\\ikusgailua.exe\" -open"
+msgstr "Adibidea: png \"c:\\programa agiriak\\ikusgailua\\ikusgailua.exe\" -open"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1633
 msgid "Examples"
@@ -3553,7 +3569,8 @@ msgstr "E&xekutatu"
 #: ../../source/FileZilla3/locales/../src/interface/update_dialog.cpp:57
 msgid "Executable contains no version info, cannot check for updates."
 msgstr ""
-"Exekutagarriak ez du bertsio argibiderik, ezin dira eguneraketak egiaztatu."
+"Exekutagarriak ez du bertsio informaziorik, ezin dira eguneraketak "
+"egiaztatu."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1254
 msgid "Explorer"
