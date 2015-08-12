@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: filezilla\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-08-12 15:31+0200\n"
-"PO-Revision-Date: 2015-05-26 22:50+0200\n"
+"PO-Revision-Date: 2015-08-12 16:09+0200\n"
 "Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>\n"
 "Language-Team: Euskara <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -100,18 +100,18 @@ msgid "%h - Host"
 msgstr "%h - Ostalaria"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:108
-#, fuzzy, c-format
+#, c-format
 msgid "%llu directory"
 msgid_plural "%llu directories"
-msgstr[0] "%d direktorio"
-msgstr[1] "%d direktorio"
+msgstr[0] "%llu direktorio"
+msgstr[1] "%llu direktorio"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:107
-#, fuzzy, c-format
+#, c-format
 msgid "%llu file"
 msgid_plural "%llu files"
-msgstr[0] "%d fitxategi"
-msgstr[1] "%d fitxategi"
+msgstr[0] "%llu fitxategi"
+msgstr[1] "%llu fitxategi"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:517
 #, c-format
@@ -234,7 +234,6 @@ msgid "&Add files to queue"
 msgstr "&Gehitu fitxategiak ilaran"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:645
-#, fuzzy
 msgid "&Add key file..."
 msgstr "&Gehitu gako-fitxategia..."
 
@@ -622,9 +621,8 @@ msgid "&Keep remote path structure relative to search root"
 msgstr "&Mantendu urruneko bide-izenen egitura bilaketa-erroarekiko"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:230
-#, fuzzy
 msgid "&Key file:"
-msgstr "I&reki fitxategia"
+msgstr "&Gako-fitxategia:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1278
 msgid "&Layout of file and directory panes:"
@@ -1743,9 +1741,8 @@ msgid "Bookmarks"
 msgstr "Laster-markak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/sitemanager.xrc:249
-#, fuzzy
 msgid "Browse..."
-msgstr "&Arakatu..."
+msgstr "Arakatu..."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:669
 msgid "Build date:"
@@ -1792,7 +1789,7 @@ msgstr "&Pertsonalizatu fitxategi moten asoziazioak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:773
 msgid "CPU features:"
-msgstr ""
+msgstr "PUZaren ezaugarriak:"
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:1571
 #: ../../source/FileZilla3/locales/../src/engine/sftpcontrolsocket.cpp:1210
@@ -1907,7 +1904,6 @@ msgid "Cannot load Quickconnect bar from resource file"
 msgstr "Ezin da konexio azkarreko barra kargatu baliabideen fitxategitik"
 
 #: ../../source/FileZilla3/locales/../src/interface/settings/optionspage_connection_sftp.cpp:108
-#, fuzzy
 msgid "Cannot load key file"
 msgstr "Ezin da gako-fitxategia kargatu"
 
@@ -2070,9 +2066,8 @@ msgid "Checksum mismatch on file %s\n"
 msgstr "Kontroleko batura ez da zuzena %s fitxategiarentzat\n"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1481
-#, fuzzy
 msgid "Choose a key file"
-msgstr "Bihurtu gako-fitxategia"
+msgstr "Aukeratu gako-fitxategia"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1512
 msgid "Choose the default local directory"
@@ -2313,9 +2308,9 @@ msgstr "%s(e)ra konektatzen"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:1047
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:4243
-#, fuzzy, c-format
+#, c-format
 msgid "Connecting to %s through %s proxy"
-msgstr "%s(e)ra konektatzen proxy bidez"
+msgstr "%s(e)ra %s proxy-aren bidez konektatzen"
 
 #: ../../source/FileZilla3/locales/../src/engine/ControlSocket.cpp:955
 #: ../../source/FileZilla3/locales/../src/engine/proxy.cpp:243
@@ -2435,7 +2430,6 @@ msgid "Connection with the test server failed."
 msgstr "Probako zerbitzariarekiko konexioak huts egin du."
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:109
-#, fuzzy
 msgid "Convert key file"
 msgstr "Bihurtu gako-fitxategia"
 
@@ -2503,9 +2497,9 @@ msgid "Could not create local file %s\n"
 msgstr "Ezin izan da %s fitxategi lokala sortu\n"
 
 #: ../../source/FileZilla3/locales/../src/engine/logging.cpp:165
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create logging mutex: %s"
-msgstr "Ezin izan da %s fitxategi lokala sortu\n"
+msgstr "Ezin izan da saio hasierako elkar-bazterketa sortu: %s"
 
 #: ../../source/FileZilla3/locales/../src/interface/RemoteListView.cpp:2193
 #: ../../source/FileZilla3/locales/../src/interface/RemoteTreeView.cpp:851
@@ -2597,7 +2591,6 @@ msgstr ""
 "Gune-kudeatzailean egindako aldaketak ez dira gordeko."
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:53
-#, fuzzy
 msgid "Could not load key file"
 msgstr "Ezin izan da gako-fitxategia kargatu"
 
@@ -2738,7 +2731,7 @@ msgid "Could not write \"%s\":"
 msgstr "Ezin izan da idatzi \"%s\":"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:162
-#, fuzzy, c-format
+#, c-format
 msgid "Could not write key file: %s"
 msgstr "Ezin izan da gako-fitxategia idatzi: %s"
 
@@ -2852,7 +2845,7 @@ msgstr "Uneko transferentzia mota bitarra da."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2006
 msgid "Curve:"
-msgstr ""
+msgstr "Kurba:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:478
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:1556
@@ -3064,9 +3057,8 @@ msgstr "Gako berrirako xehetasunak:"
 
 #: ../../source/FileZilla3/locales/../src/interface/import.cpp:58
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:756
-#, fuzzy
 msgid "Detected newer version of FileZilla"
-msgstr "Bilatu FileZilla-ren bertsio berriak"
+msgstr "FileZilla-ren bertsio berriagoa detektatu da"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:1334
 msgid "Dire&ctories"
@@ -3346,7 +3338,6 @@ msgstr "&Irten"
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:415
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:459
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:482
-#, fuzzy
 msgid "E&xport..."
 msgstr "&Esportatu..."
 
@@ -4799,9 +4790,8 @@ msgstr "Gako-trukaketa:"
 #: ../../source/FileZilla3/locales/../src/engine/server.cpp:879
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1309
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1310
-#, fuzzy
 msgid "Key file"
-msgstr "%d fitxategi"
+msgstr "Gako-fitxategia"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/menus.xrc:370
 msgid "L&owest"
@@ -5388,9 +5378,8 @@ msgid "OK"
 msgstr "Ados"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:757
-#, fuzzy
 msgid "OS version:"
-msgstr "Bertsioa:"
+msgstr "SEaren bertsioa:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/netconfwizard.xrc:103
 msgid ""
@@ -5469,9 +5458,8 @@ msgstr ""
 "botoiarekin klik egin iragazkiak txandakatzeko."
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:749
-#, fuzzy
 msgid "Operating System:"
-msgstr "Sistema eragilea"
+msgstr "Sistema eragilea:"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1057
 msgid "Operation already in progress"
@@ -6040,7 +6028,7 @@ msgstr "Prozesu-fitxategi taularen gainezkatzea"
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:110
 #, c-format
 msgid "Processed %s in %s."
-msgstr ""
+msgstr "%s %s(e)n prozesatu da."
 
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1055
 msgid "Protocol not supported"
@@ -6285,18 +6273,16 @@ msgid "Reconnects to the last used server"
 msgstr "Erabilitako azken zerbitzarira birkonektatzen da"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:92
-#, fuzzy
 msgid "Recursively adding files to queue."
-msgstr "&Gehitu fitxategiak ilaran"
+msgstr "Fitxategiak ilaran modu errekurtsiboan gehitzen."
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:98
 msgid "Recursively changing permissions."
-msgstr ""
+msgstr "Baimenak modu errekurtsiboan aldatzen."
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:95
-#, fuzzy
 msgid "Recursively deleting files and directories."
-msgstr "Aldatu hautatutako fitxategi eta direktorioen izena"
+msgstr "Fitxategi eta direktorioak modu errekurtsiboan ezabatzen."
 
 #: ../../source/FileZilla3/locales/../src/engine/httpcontrolsocket.cpp:642
 #, c-format
@@ -6674,9 +6660,8 @@ msgid "Select file to upload"
 msgstr "Hautatu kargatzeko fitxategia"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:143
-#, fuzzy
 msgid "Select filename for converted key file"
-msgstr "Hautatu bihurtutako gako-fitxategiaren izena"
+msgstr "Hautatu bihurtutako gako-fitxategiaren fitxategi-izena"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:2907
 msgid "Select how these files should be opened."
@@ -6945,9 +6930,8 @@ msgid "Settings"
 msgstr "Ezarpenak"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:781
-#, fuzzy
 msgid "Settings directory:"
-msgstr "Direktorioa sortzen"
+msgstr "Ezarpenen direktorioa:"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/settings.xrc:2273
 msgid "Show &raw directory listing"
@@ -7232,9 +7216,8 @@ msgid "Stop and remove &all"
 msgstr "Gelditu eta kendu &denak"
 
 #: ../../source/FileZilla3/locales/../src/interface/recursive_operation_status.cpp:40
-#, fuzzy
 msgid "Stop recursive operation"
-msgstr "Segurtasun-informazioa"
+msgstr "Gelditu eragiketa errekurtsiboa"
 
 #: ../../source/FileZilla3/locales/../src/interface/verifycertdialog.cpp:225
 msgid "Street:"
@@ -7304,9 +7287,8 @@ msgid "System"
 msgstr "Sistema"
 
 #: ../../source/FileZilla3/locales/../src/interface/resources/xrc/dialogs.xrc:793
-#, fuzzy
 msgid "System details"
-msgstr "Erakutsi xehetasunak"
+msgstr "Sistemaren xehetasunak"
 
 #: ../../source/FileZilla3/locales/../src/engine/socket.cpp:1051
 msgid "System limit of open files exceeded"
@@ -7367,7 +7349,7 @@ msgstr "Zerbitzariaren berrekiteko ahalmena probatzen"
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:748
 msgid "The Site Manager cannot be used unless the file gets repaired."
-msgstr ""
+msgstr "Fitxategia konpondu ezean ezin da Gune-kudeatzailea erabili."
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:326
 msgid ""
@@ -7517,9 +7499,13 @@ msgid ""
 "Loading files created by newer versions can result in loss of data.\n"
 "Do you want to continue?"
 msgstr ""
+"'%s' fitxategia Filezilla-ren bertsio berriago bat erabiliz sortua da.\n"
+"Bertsio berriagoekin sortutako fitxategiak kargatzeak datuen galera eragin "
+"dezake.\n"
+"Jarraitu nahi duzu?"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file '%s' is not in a format supported by FileZilla.\n"
 "The file is also password protected. Password protected key files are not "
@@ -7541,7 +7527,7 @@ msgstr ""
 "Pasa nahi duzu formatu onartu batera?"
 
 #: ../../source/FileZilla3/locales/../src/interface/fzputtygen_interface.cpp:107
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file '%s' is password protected. Password protected key files are not "
 "supported by FileZilla yet.\n"
@@ -8471,9 +8457,8 @@ msgid "You have to enter a hostname."
 msgstr "Ostalari-izen bat sartu behar duzu."
 
 #: ../../source/FileZilla3/locales/../src/interface/sitemanager_dialog.cpp:1061
-#, fuzzy
 msgid "You have to enter a key file path"
-msgstr "Direktorio lokal bat sartu behar duzu."
+msgstr "Gako-fitxategiaren bide bat sartu behar duzu."
 
 #: ../../source/FileZilla3/locales/../src/interface/search.cpp:518
 msgid "You have to enter a local directory."
