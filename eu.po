@@ -2738,7 +2738,7 @@ msgstr "Ezin izan da zerbitzariaren helbidea analizatu:"
 
 #: ../../source/FileZilla3/locales/../src/interface/netconfwizard.cpp:994
 msgid "Could not read from data socket."
-msgstr "Ezin izan da datuen socket-ean irakurri: %s"
+msgstr "Ezin izan da datuen socket-ean irakurri."
 
 #: ../../source/FileZilla3/locales/../src/engine/ftpcontrolsocket.cpp:217
 #, c-format
